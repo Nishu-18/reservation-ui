@@ -48,10 +48,7 @@ export function ReservationCard({
   return (
     <div className="relative rounded-xl border border-border p-6 shadow-sm flex flex-col gap-6">
       
-      {/* Status Badge */}
-      <div className="absolute top-4 right-4">
-        
-      </div>
+      
 
       {/* Name and Reservation No */}
       <div className="flex justify-between">
@@ -72,7 +69,11 @@ export function ReservationCard({
         
         
       </div>
-      <p className="text-sm text-muted-foreground">Res. No. {resNo}</p>
+      <div>
+      <p className="text-sm text-muted-foreground relative  bottom-4">Res. No. {resNo}</p>
+
+      </div>
+     
       <hr />
 
       {/* Two-column Layout */}

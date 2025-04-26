@@ -1,5 +1,5 @@
-import { ReservationCard } from "./components/ReservationCard";
-import type { ReservationProps } from "./components/ReservationCard";
+import { ReservationCard } from "../ReservationCard";
+import type { ReservationProps } from "../ReservationCard";
 
 
 const reservations:ReservationProps[] = [
